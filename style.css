@@ -432,3 +432,32 @@ html{
     transform:translateY(-4px);
     background:#ffea61;
 }
+/* ===== Hero Stats ===== */
+
+.hero-stats{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin:40px 0;
+}
+
+.stat-box{
+    background:rgba(255,255,255,.08);
+    border:2px solid rgba(255,215,0,.35);
+    border-radius:16px;
+    padding:20px;
+    width:120px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+}
+
+.stat-box h3{
+    color:#FFD700;
+    font-size:2rem;
+    margin-bottom:8px;
+}
+
+.stat-box p{
+    font-size:.9rem;
+}
