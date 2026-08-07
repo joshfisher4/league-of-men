@@ -407,3 +407,28 @@ padding:25px;
 html{
     scroll-behavior:smooth;
 }
+/* ===== Home Buttons ===== */
+
+.quick-links{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    margin-top:30px;
+}
+
+.home-button{
+    background:#FFD700;
+    color:#111;
+    text-decoration:none;
+    padding:14px 22px;
+    border-radius:12px;
+    font-weight:bold;
+    transition:.3s;
+    box-shadow:0 6px 18px rgba(0,0,0,.25);
+}
+
+.home-button:hover{
+    transform:translateY(-4px);
+    background:#ffea61;
+}
